@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+   title Image Search Abstraction Layer
+   link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+  h1 Image Search Abstraction Layer
+  br
+  p.red Example usage
+  code rp-short.herokuapp.com/lolcats%20funny
+  br
+  br
+  p.red To go to the next page, add a "/" followed by a number.
+  code rp-short.herokuapp.com/lolcats%20funny/2
+  br
+  br
+  p.red Expect output corresponds to the url, snipper, thumbnail and context corresponsing to the search's corresponding results
+  p.small {
+  p.small url: "http://i0.kym-cdn.com/photos/images/original/000/010/017/lolcats-funny-pictures-surprise-cannibalism.jpg",
+  p.small snippet: "Image - 10017] | LOLcats | Know Your Meme",
+  p.small thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBpDueya0bfWRnj-q0FfTmx01gdr1kCCSlfZ3brV8-oiVQKjZ1YwKb6c",
+  p.small context: "http://knowyourmeme.com/photos/10017-lolcats" 
+  p.small }, ...
+  br 
+  br
+  p. Use the short property to access the shorted url.
